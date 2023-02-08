@@ -1,0 +1,19 @@
+html {
+  background-color: gray;
+  margin: 0;
+}
+
+.header {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  background-image: linear-gradient(to top, white, lightblue);
+}
+
+.nav-bar ul li {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  list-style: none;
+  float: right;
+}
