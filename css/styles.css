@@ -10,10 +10,13 @@ html {
   padding: 0;
   scroll-behavior: smooth;
 }
+
+/* HEADER  */
 .header {
-  padding: 10px;
+    color: white;
+  padding: 0px 10px;
   font-family: "Permanent Marker", cursive;
-  background-image: linear-gradient(to top, white, lightblue);
+  background-image: url("/images/header-pic.jpg")
 }
 .header h1 {
   display: inline-block;
@@ -23,9 +26,8 @@ html {
 
 .header ul li {
   display: inline-block;
-  text-decoration: none;
   list-style-type: none;
-  padding: 4px;
+  padding: 15px;
 }
 
 .header div {
@@ -34,4 +36,32 @@ html {
   float: right;
   font-family: "Permanent Marker", cursive;
   font-size: 20px;
+}
+
+.nav-text {
+    color: white;
+    text-decoration: none;
+}
+/* 
+CONTENT */
+
+#about-me {
+    color: white;
+    background-image: linear-gradient(to bottom, black, grey);
+padding: ;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+
+}
+
+.title {
+
+
+}
+
+.usmc {
+    float: right;
+    width: 10%;
+margin-right: 280;
 }
