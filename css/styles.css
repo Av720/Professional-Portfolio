@@ -1,35 +1,37 @@
-
 ::root {
-    --light: #fff ;
-    --dark : #000 ; 
+  --light: #fff;
+  --dark: #000;
 }
-
 
 html {
   background-color: gray;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
-
-header h1{
-  font-family: "Cormorant Garamond", serif;
-  font-size: 3rem;
-  font-weight: 700;
+.header {
+  padding: 10px;
+  font-family: "Permanent Marker", cursive;
   background-image: linear-gradient(to top, white, lightblue);
-  margin: 0;
 }
-
-.tex-right ul li {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1.2rem;
+.header h1 {
+  display: inline-block;
+  font-size: 4rem;
   font-weight: 700;
-  list-style: none;
-  
 }
 
-li {
-    display: inline-block;
-    padding: 0px 20px;
-    text-align: right;
-    
+.header ul li {
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 4px;
+}
+
+.header div {
+  padding-top: 60px;
+  margin-right: 60px;
+  float: right;
+  font-family: "Permanent Marker", cursive;
+  font-size: 20px;
 }
