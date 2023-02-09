@@ -1,4 +1,4 @@
-::root {
+:root {
   --light: #fff;
   --dark: #000;
 }
@@ -12,10 +12,16 @@ html {
 body {
   margin: 0;
 }
+
+p {
+    padding: 15px;
+    font-family: "Cormorant Garamond", serif;
+}
+
 /* HEADER  */
 
 .header {
-  color: white;
+  color: var(--light);
   padding: 0px 10px;
   font-family: "Permanent Marker", cursive;
   background-image: url("/images/header-pic.jpg");
@@ -42,9 +48,9 @@ body {
 }
 
 .nav-text {
-  color: white;
+  color: var(--light);
   text-decoration: none;
-  box-shadow: inset 0 0 0 0 #0b5276;
+  box-shadow: inset 0 0 0 0 #96a2a8;
   color: #ffffff;
   margin: 0 -0.25rem;
   padding: 0 0.25rem;
@@ -52,7 +58,7 @@ body {
 }
 .nav-text:hover {
   box-shadow: inset 229px 0 0 0 #023c51;
-  color: white;
+  color: var(--light);
 }
 
 /* TITLE */
@@ -92,10 +98,7 @@ body {
   height: 250px;
 }
 
-p {
-  padding: 15px;
-  font-family: "Cormorant Garamond", serif;
-}
+
 .usmc,
 .colorado,
 .likes {
