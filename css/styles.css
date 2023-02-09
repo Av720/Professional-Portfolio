@@ -14,8 +14,8 @@ body {
 }
 
 p {
-    padding: 15px;
-    font-family: "Cormorant Garamond", serif;
+  padding: 15px;
+  font-family: "Cormorant Garamond", serif;
 }
 
 /* HEADER  */
@@ -72,6 +72,8 @@ p {
   color: white;
 }
 
+/* CONTENT  */
+
 .content {
   margin-top: 30px;
 }
@@ -79,7 +81,7 @@ p {
 /* CONTENT // ABOUT ME */
 
 #about-me {
-  margin-top: 3ppx;
+  margin-top: 3px;
   display: flex;
   flex-direction: row;
 }
@@ -95,9 +97,10 @@ p {
   margin-bottom: 50px;
   margin-top: 0px;
   padding: 20px;
-  height: 250px;
+  height: 300px;
 }
 
+/* IMAGES  */
 
 .usmc,
 .colorado,
@@ -106,7 +109,7 @@ p {
   display: flex;
 }
 .co {
-  width: 60%;
+  width: 70%;
 }
 
 .us {
@@ -116,7 +119,7 @@ p {
 .apollo {
   width: 60%;
 }
-/* HOVER  */
+/* IMAGES HOVER  */
 
 .img {
   -webkit-transition: all 0.7s ease;
