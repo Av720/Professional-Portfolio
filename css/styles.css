@@ -4,7 +4,7 @@
 }
 
 html {
-  background-color: gray;
+  background-color: black;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -78,8 +78,7 @@ body {
   flex-direction: row;
 }
 
-#about-me,
-#projects {
+#about-me {
   color: white;
   background-image: linear-gradient(
     to bottom,
@@ -112,7 +111,7 @@ p {
 }
 
 .apollo {
-  width: 50%;
+  width: 60%;
 }
 /* HOVER  */
 
@@ -128,46 +127,48 @@ p {
 
 /* CONTENT PROJECTS  */
 
-.work {
-  padding: 30px 0;
+.jobs {
+  padding: 20px 20px;
   display: flex;
   justify-content: space-between;
-  background-color: black;
-}
-
-.projects {
-  width: 80%;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-}
-
-.grid {
-  width: 70%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 10px;
-}
-
-.project {
-  border: solid;
   background-image: linear-gradient(
     to bottom,
     rgb(36, 106, 211),
     rgb(10, 145, 157)
   );
+  margin-bottom: 40px;
+}
+
+.projects {
+  width: 80%;
+  height: 400px;
   display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 149px;
+}
+
+.grid {
+  width: 70%;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.project {
+  border: solid white;
+  opacity: 0.5;
+  display: flex;
+  background-position: center;
   justify-content: flex-end;
   align-items: flex-end;
   text-decoration: none;
   background-size: cover;
-  background-position: center;
-  opacity: 0.5;
 }
 
 .project:hover {
-  opacity: 1;
+  opacity: 4;
 }
 
 .js-test {
@@ -186,8 +187,7 @@ p {
   background-position: 60% 50%;
 }
 
-.project-label {
-  /*background-color: var(--secondary);*/
+.inside-cards {
   background-image: linear-gradient(
     to bottom,
     rgb(61, 100, 114),
@@ -197,20 +197,18 @@ p {
   padding: 10px;
 }
 
-/* my work section styling end */
-
 /* FOOTER  */
 
 #footer {
   text-align: center;
   background-image: url(/images/header-pic.jpg);
-  padding: 10px;
+  padding: 5px;
 }
 
 .icons {
   align-items: center;
   color: white;
-  padding: 20px 10px;
+  padding: 10px 20px 20px;
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
 }
