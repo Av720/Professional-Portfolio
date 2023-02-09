@@ -4,7 +4,7 @@
 }
 
 html {
-  background-color: gray;
+  background-image: linear-gradient(to top, black, rgb(73, 115, 132), black);
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -46,11 +46,16 @@ html {
 /* 
 CONTENT // ABOUT ME */
 
+
+.content {
+    margin-top: 30px;
+}
+
 #about-me,
 #hobbies,
 #experience {
   color: white;
-  background-image: linear-gradient(to bottom, black, grey);
+  background-image: linear-gradient(to bottom, rgb(36, 106, 211), rgb(10, 145, 157));
   padding: 10px;
   margin-bottom: 50px;
   margin-top: 0px;
@@ -70,9 +75,13 @@ CONTENT // ABOUT ME */
   padding-top: 30px;
 }
 
+#about-me {
+margin-top: 3ppx;
+}
 #about-me p {
   margin-left: 300px;
   padding-top: 30px;
+
 }
 
 #about-me img h1 p {
@@ -88,9 +97,6 @@ CONTENT // ABOUT ME */
     width: 20%;
     float: right;
 }
- .apollo { 
-    width: 20%;
- }
 
 /* FOOTER  */
 
