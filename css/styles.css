@@ -231,49 +231,50 @@ p {
   text-align: center;
 }
 
-
-
-
 /* MEDIA QUERY */
 
 @media screen and (max-width: 980px) {
 
-    
-    header h1 {
-        width: 100%;
-        text-align: center;
-    }
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
 
-    header ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
-    }
-    
-    header nav  li a {
-        font-size: 20px;
-    }
-    
-    footer {
-        text-align: center;
-        width: 100%;
-    }
-    
-    #main-projects{
-        justify-content: center;
-    }
-    .header {
-        padding-bottom: 0;
-        justify-content: center;
-        position: relative;
-    }
-  
+  header ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  footer {
+    text-align: center;
+    width: 100%;
+  }
+
+  #main-projects {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-right: 400px;
+  }
+
+  #about-me {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-
-
-@media screen and (max-width: 768px) {
-    section {
-        padding: 35px 15px;
-    }
+.img{
+    width: 20%;
 }
+  }
+  .header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+}
+
+/* @media screen and (max-width: 768px) {
+  section {
+    padding: 35px 15px;
+  }
+} */
